@@ -1,7 +1,28 @@
+.nopadding {
+	
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	margin: 0 !important;
+
+}
+
 .black {
-background-color:#232121;
-color:#a7a7a8;
+	background-color:#232121;
+	color:#a7a7a8;
+	overflow: hidden;
+}
+
+.resp{
+
+	max-width: 100%;
 }
 h1{
-color:white;
+	color:white;
+	margin-left:60px;
+	margin-right: 60px;
+}
+p {
+
+	margin-left:60px;
+	margin-right: 60px;
 }
