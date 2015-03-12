@@ -20,9 +20,14 @@ h1{
 	color:white;
 	margin-left:60px;
 	margin-right: 60px;
+	letter-spacing: 0.2em;
 }
 p {
 
 	margin-left:60px;
 	margin-right: 60px;
+}
+body {
+	font-family:'Raleway', sans-serif;
+
 }
