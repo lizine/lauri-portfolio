@@ -8,7 +8,6 @@
 
 .black {
 	background-color:#232121;
-	color:#a7a7a8;
 	overflow: hidden;
 }
 
@@ -18,16 +17,33 @@
 }
 h1{
 	color:white;
-	margin-left:60px;
-	margin-right: 60px;
+	margin-left:90px;
+	margin-right: 90px;
+	padding-top: 70px;
 	letter-spacing: 0.2em;
 }
 p {
 
-	margin-left:60px;
-	margin-right: 60px;
+	margin-left:90px;
+	margin-right: 90px;
+	padding-top: 15px;
+	color:#afafaf;
+	font-weight: bolder;
 }
 body {
 	font-family:'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.7em;
 
+}
+.divider {
+	max-width: 58%;
+	border-color:#414042;
+	margin-bottom: -18px;
+	margin-left: 90px;
+}
+.contact-text{
+	color:white;
+	letter-spacing: 0.2em;
+	padding-top: 40px;
 }
