@@ -11,8 +11,9 @@
 	overflow: hidden;
 }
 .grey {
-	background-color: #efeaea;
-	overflow:hidden;
+	background-color: #f6f1f1;
+	overflow: hidden;
+
 }
 
 .resp{
@@ -54,13 +55,23 @@ body {
 
 }
 .divider {
-	max-width: 58%;
-	border-color:#414042;
+	max-width: 38%;
+	border-color:#afafaf;
 	margin-bottom: -18px;
-	margin-left: 90px;
+	margin-left: 500px;
 }
 .contact-text{
-	color:white;
+	color:black;
 	letter-spacing: 0.2em;
 	padding-top: 40px;
+	padding-bottom:80px;
+}
+
+.personal {
+color:black;
+
+}
+.footer {
+  background-color: #f6f1f1;
+  height:200px;	
 }
