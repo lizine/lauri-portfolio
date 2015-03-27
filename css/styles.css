@@ -14,6 +14,16 @@
 	background-color: #f6f1f1;
 	overflow: hidden;
 
+
+}
+.cover{
+
+	background-image: url("../img/Awesome_lores_3.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	
+	
+
 }
 
 .resp{
@@ -58,17 +68,19 @@ body {
 	max-width: 38%;
 	border-color:#afafaf;
 	margin-bottom: -18px;
-	margin-left: 500px;
+	margin-left: 80px;
 }
 .contact-text{
 	color:black;
 	letter-spacing: 0.2em;
 	padding-top: 40px;
-	padding-bottom:80px;
+	
 }
 
 .personal {
 color:black;
+padding-bottom:250px;
+
 
 }
 .footer {
