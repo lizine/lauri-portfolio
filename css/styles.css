@@ -7,7 +7,7 @@
 }
 
 .black {
-	background-color:#232121;
+	background-color:#edeae6;
 	overflow: hidden;
 }
 .grey {
@@ -20,23 +20,47 @@
 
 	background-image: url("../img/Awesome_lores_3.jpg");
 	background-size: cover;
-	background-position: center bottom;
-	
+	background-position: bottom center;
+	max-width: 100%;
+	max-height: auto;
 	
 
 }
+.icon{
+	padding-left: 30px;
+}
+.contact{
+	background-color: #232121;
+	padding-top:26px;
+	padding-bottom:26px; 
 
+}
+.email{
+	color:#d9b05e;
+	padding-top: 9px;
+	padding-left: 12px;
+
+}
+.linkedin{
+	color:#b56129;
+	padding-left: 12px;
+}
+
+.phone{
+	color:#988447;
+	padding-left: 12px;
+}
 .resp{
 
 	max-width: 100%;
 }
 h1{
 	font-family:'Raleway', sans-serif;
-	color:white;
+	color:#232121;
 	margin-left:90px;
 	margin-right: 90px;
 	padding-top: 70px;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.15em;
 }
 h2{
 	font-family:'Raleway', sans-serif;
@@ -44,7 +68,7 @@ h2{
 	margin-right: 90px;
 	letter-spacing: 0.2em;
 	margin-top: -5px;
-	color:#afafaf;
+	color:#b56129;
 	font-size:16px;
 	font-weight: bold;
 
@@ -54,9 +78,24 @@ p {
 	margin-left:90px;
 	margin-right: 90px;
 	padding-top: 25px;
-	color:#afafaf;
+	color:#7c7a7a;
 	
 }
+
+
+a:link {
+    text-decoration: none;
+     
+}
+a:visited {
+   color:#b56129;
+   }
+
+a:hover{
+	color:white;
+}
+
+
 body {
 	
 	font-family: 'Lato', sans-serif;
@@ -79,11 +118,20 @@ body {
 
 .personal {
 color:black;
-padding-bottom:250px;
+font-size: 4em;
+padding-bottom:5px;
 
-
+}
+.jobtitle{
+	font-size:1.3em;
+	padding-bottom:290px;
 }
 .footer {
   background-color: #f6f1f1;
   height:200px;	
+}
+
+.anchor{
+padding-left: 150px;
+
 }
