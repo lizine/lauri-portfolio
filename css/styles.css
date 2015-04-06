@@ -30,7 +30,7 @@
 
 }
 .icon{
-	padding-left: 30px;
+	padding-left: 70px;
 }
 .contact{
 	background-color: #232121;
@@ -123,12 +123,7 @@ body {
 	line-height: 1.65em;
 
 }
-.divider {
-	max-width: 38%;
-	border-color:#afafaf;
-	margin-bottom: -18px;
-	margin-left: 80px;
-}
+
 .contact-text{
 	color:black;
 	letter-spacing: 0.2em;
@@ -140,16 +135,14 @@ body {
 color:black;
 font-size: 4em;
 padding-bottom:5px;
+padding-top: 100px;
 
 }
 .jobtitle{
 	font-size:1.3em;
 	padding-bottom:290px;
 }
-.footer {
-  background-color: #f6f1f1;
-  height:200px;	
-}
+
 
 .anchor{
 padding-left: 150px;
@@ -175,6 +168,14 @@ padding-left: 150px;
     h2{
     	margin-left: 40px;
     	font-size:15px;
+    }
+    .personal{
+    	font-size:3.5em;
+    	padding-top: 70px;
+    	padding-bottom: 3px;
+    }
+    .jobtitle{
+    	font-size: 1.2em;
     }
 }
 
