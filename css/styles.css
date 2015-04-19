@@ -30,28 +30,42 @@
 
 }
 .icon{
+	
 	padding-left: 70px;
+	
 }
 .contact{
 	background-color: #232121;
 	padding-top:26px;
 	padding-bottom:26px; 
 
+	
+
 }
+
 .email{
 	color:#d9b05e;
-	padding-top: 9px;
+	padding-top: 50px;
 	padding-left: 12px;
+	
+	vertical-align: center;
 
 }
 .linkedin{
 	color:#b56129;
+	padding-top: 10px;
 	padding-left: 12px;
+	
+
 }
 
 .phone{
 	color:#988447;
+	
 	padding-left: 12px;
+}
+.phonediv{
+	padding-top: 10px;
 }
 .resp{
 
@@ -67,11 +81,13 @@
 	text-align: center;
 
 
+
 }
 .divh2{
 	color:#d6c7ab;
 	padding-top: 25px;
 }
+
 h1{
 	font-family:'Raleway', sans-serif;
 	color:#232121;
@@ -133,9 +149,11 @@ body {
 
 .personal {
 color:black;
-font-size: 4em;
+font-size: 5.5em;
 padding-bottom:5px;
 padding-top: 100px;
+letter-spacing: 0em;
+line-height: 0.93em;
 
 }
 .jobtitle{
@@ -184,5 +202,37 @@ padding-left: 150px;
 		padding-bottom: 50px;
 		
 	}
+	
+
+}
+
+@media screen and (max-width:692px){
+	.cover{
+		background-repeat: no-repeat;
+		background-image: url("../img/Lauri_Mobile_version.jpg");
+		background-size: 100%;
+	    width: 100%; 
+	 
+	    background-position: center;
+	   
+		
+	}
+
+.personal {
+	padding-top: 20px;
+margin-left: 70px;
+font-size: 44px;
+letter-spacing: 0em;
+
+}
+.jobtitle{
+	margin-left: 70px;
+	font-size: 14px;
+}
+.contact-colmn{
+	padding-top: 20px;
+
+
+}
 
 }
